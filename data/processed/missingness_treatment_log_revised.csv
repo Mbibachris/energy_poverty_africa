@@ -1,0 +1,47 @@
+Dropped_Variables_(>50%_missing),Mean_Imputed_(0-20%_missing_numeric),KNN_Imputed_(20-50%_missing_numeric),No_Missing_(0%)_Not_Imputed
+Carbon dioxide (CO2) emissions from Agriculture (Mt CO2e),Access to clean fuels and technologies for cooking (% of population),Alternative and nuclear energy (% of total energy use),Country Name
+"Central government debt, total (% of GDP)","Access to clean fuels and technologies for cooking, rural (% of rural population)",Electric power consumption (kWh per capita),Time
+Expense (% of GDP),"Access to clean fuels and technologies for cooking, urban (% of urban population)",Electric power transmission and distribution losses (% of output),"Population, total"
+Interest payments (% of expense),Access to electricity (% of population),"Energy imports, net (% of energy use)",Rural population
+Multidimensional poverty headcount ratio (UNDP) (% of population),"Access to electricity, rural (% of rural population)",Energy use (kg of oil equivalent per capita),Rural population (% of total population)
+Multidimensional poverty headcount ratio (World Bank) (% of population),"Access to electricity, urban (% of urban population)","Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP)",Urban population
+Time to obtain an electrical connection (days),Adjusted savings: energy depletion (% of GNI),Fossil fuel energy consumption (% of total),Urban population (% of total population)
+,Adjusted savings: natural resources depletion (% of GNI),Fuel exports (% of merchandise exports),
+,Adjusted savings: particulate emission damage (% of GNI),Fuel imports (% of merchandise imports),
+,Adjusted savings: particulate emission damage (current US$),GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent),
+,Carbon dioxide (CO2) emissions (total) excluding LULUCF (% change from 1990),GDP per unit of energy use (PPP $ per kg of oil equivalent),
+,Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e),"Inflation, consumer prices (annual %)",
+,Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita),,
+,Carbon intensity of GDP (kg CO2e per 2021 PPP $ of GDP),,
+,Carbon intensity of GDP (kg CO2e per constant 2015 US$ of GDP),,
+,Consumer price index (2010 = 100),,
+,"Debt service (PPG and IMF only, % of exports of goods, services and primary income)",,
+,"Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)",,
+,"Debt service on external debt, total (TDS, current US$)",,
+,Electricity production from coal sources (% of total),,
+,Electricity production from hydroelectric sources (% of total),,
+,Electricity production from natural gas sources (% of total),,
+,Electricity production from nuclear sources (% of total),,
+,Electricity production from oil sources (% of total),,
+,"Electricity production from oil, gas and coal sources (% of total)",,
+,"Electricity production from renewable sources, excluding hydroelectric (% of total)",,
+,"Electricity production from renewable sources, excluding hydroelectric (kWh)",,
+,Energy intensity level of primary energy (MJ/$2017 PPP GDP),,
+,External debt stocks (% of GNI),,
+,Final consumption expenditure (% of GDP),,
+,GDP (current US$),,
+,GDP growth (annual %),,
+,Government Effectiveness: Estimate,,
+,"Inflation, GDP deflator (annual %)",,
+,Natural gas rents (% of GDP),,
+,"Net primary income (BoP, current US$)",,
+,Oil rents (% of GDP),,
+,Population density (people per sq. km of land area),,
+,Population growth (annual %),,
+,Regulatory Quality: Estimate,,
+,Renewable electricity output (% of total electricity output),,
+,Renewable energy consumption (% of total final energy consumption),,
+,Renewable internal freshwater resources per capita (cubic meters),,
+,"Renewable internal freshwater resources, total (billion cubic meters)",,
+,Rural population growth (annual %),,
+,Urban population growth (annual %),,

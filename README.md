@@ -66,9 +66,11 @@ All data are sourced from the **World Bank World Development Indicators (WDI)** 
 
 **Driver identification:** 34 candidate driver variables spanning six theoretical traditions (economic & income, natural resource & fiscal, institutional & governance, demographic & spatial, environmental, structural energy mix) are narrowed via Recursive Feature Elimination (Random Forest estimator) to a smaller final set used in the machine learning and panel models.
 
-**Machine learning models:** LASSO, Ridge, Elastic Net, Decision Tree, Random Forest, Gradient Boosting, XGBoost, Support Vector Regression, and K-Nearest Neighbours — tuned with 5-fold `GridSearchCV` on a temporally-ordered train/test split. Interpreted using feature importance, SHAP (TreeExplainer), Partial Dependence Plots, and Individual Conditional Expectation curves.
+**Machine learning models:** LASSO, Ridge, Elastic Net, Decision Tree, Random Forest, Gradient Boosting, XGBoost, Support Vector Regression, and K-Nearest Neighbours — tuned with 5-fold, country-blocked `GridSearchCV` (`GroupKFold`) on a temporally-ordered train/test split, with feature selection restricted to the training partition. Interpreted using feature importance, SHAP (TreeExplainer), Partial Dependence Plots, and Individual Conditional Expectation curves. Temporal robustness is checked with a one-year-lag test and a rolling, expanding-window holdout.
 
-**Panel econometrics:** `stata/panel_analysis.do` estimates fixed-effects and random-effects models on the selected drivers, applies log/IHS transformations for skewed variables, and uses a Hausman (1978) test to choose between FE and RE.
+**Panel econometrics:** `stata/panel_analysis.do` estimates fixed-effects and random-effects models on the selected drivers, applies log/IHS transformations for skewed variables, and uses a Hausman (1978) test to choose between FE and RE. Also reports a two-way (country + year) specification, a Pesaran cross-sectional-dependence test, Driscoll–Kraay standard errors, and a fractional response model as robustness checks.
+
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for software versions, the random seed, the exact cross-validation scheme, and full file provenance.
 
 ---
 
